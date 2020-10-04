@@ -1,4 +1,4 @@
-FROM nginx:1.11
+FROM nginx:1.19
 MAINTAINER Aslam Idrisov <aslam@malsa.ch>
 
 RUN apt-get update \

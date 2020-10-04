@@ -34,11 +34,15 @@ case ${PHPFPM_ENV_APPLICATION_TYPE} in
 		DOCUMENT_ROOT=/data/web/releases/current/
 		DOCUMENT_INDEX=index.php
 		;;
+	PHPFOX)
+		DOCUMENT_ROOT=/data/web/releases/current/
+		DOCUMENT_INDEX=index.php
+		;;
 	TYPO3_7|TYPO3_8|YII2)
 		DOCUMENT_ROOT=/data/web/releases/current/web/
 		DOCUMENT_INDEX=index.php
 		;;
-	FLOW|FLOW_3|NEOS|NEOS_2)
+	FLOW|FLOW_3|NEOS_2)
 		DOCUMENT_ROOT=/data/web/releases/current/Web/
 		DOCUMENT_INDEX=index.php
 		;;
